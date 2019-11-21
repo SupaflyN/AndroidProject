@@ -79,7 +79,6 @@ public class QuestionActivity extends AppCompatActivity {
                 if (((RadioButton) findViewById(R.id.radioButton93)).isChecked()) score += 2;
                 if (((RadioButton) findViewById(R.id.radioButton94)).isChecked()) score += 3;
 
-
                 if (score <= 7) {
                     Intent intent = new Intent(getApplicationContext(), NoriskActivity.class);
                     startActivity(intent); }
