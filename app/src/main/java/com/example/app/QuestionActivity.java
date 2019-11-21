@@ -83,8 +83,14 @@ public class QuestionActivity extends AppCompatActivity {
                 if (score <= 7) {
                     Intent intent = new Intent(getApplicationContext(), NoriskActivity.class);
                     startActivity(intent); }
-                if (score >= 12) {
-                    Intent intent = new Intent(getApplicationContext(), WhatisActivity.class);
+                if (score >= 7) {
+                    Intent intent = new Intent(getApplicationContext(), lowriskActivity.class);
+                    startActivity(intent); }
+                if (score >= 13) {
+                    Intent intent = new Intent(getApplicationContext(), mediumriskActivity.class);
+                    startActivity(intent); }
+                if (score >= 19) {
+                    Intent intent = new Intent(getApplicationContext(), highrisk.class);
                     startActivity(intent); }
 
             }
