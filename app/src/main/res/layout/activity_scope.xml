@@ -5,6 +5,94 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroud"
-    tools:context=".ScopeActivity">
+    tools:context=".WhatisActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="38dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/scopelogo"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:layout_marginBottom="8dp"
+                android:padding="0dp"
+                android:src="@drawable/scopeimg"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="วิธีรับมือกับโรคซึมเศร้าด้วยตนเอง"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="1. เรียนรู้วิธีผ่อนคลายความเครียด รวมทั้งวิธีรับมือกับอาการที่เกิดขึ้นเมื่อต้องเผชิญสถานการณ์ที่ทำให้เกิดความเครียด เช่น การหางานอดิเรกทำในยามว่างหรือเมื่อรู้สึกเครียด การทำสมาธิ การผ่อนคลายกล้ามเนื้อ การเล่นโยคะ และไทเก็ก เป็นต้น "></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="2. ดูแลสุขภาพร่างกายของตัวเองให้แข็งแรงด้วยการพักผ่อนให้เพียงพอ ออกกำลังกายอย่างสม่ำเสมอ รับประทานอาหารที่มีประโยชน์ รวมทั้งหลีกเลี่ยงการดื่มแอลกอฮอล์และการใช้สารเสพติดทุกชนิด"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="3. บริหารเวลาในแต่ละวันให้เหมาะสม และวางแผนสิ่งที่ต้องทำอย่างเป็นระเบียบ โดยอาจใช้สมุดจดบันทึกตารางเวลาหรือเขียนบันทึกช่วยเตือนความจำแปะไว้ตามที่ต่าง ๆ นอกจากนี้ ควรเรียนรู้ที่จะปฏิเสธภาระหรือความรับผิดชอบที่เกินกำลัง หรือมีปริมาณมากเกินกว่าจะบริหารเวลาได้ตามกำหนด"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="4. หลีกเลี่ยงการตัดสินใจเรื่องสำคัญในขณะที่กำลังเผชิญภาวะตกต่ำทางอารมณ์ เนื่องจากอาจทำให้คิดอ่านได้ไม่ดีพอ"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="5. ขอความช่วยเหลือจากครอบครัว เพื่อน และบุคคลใกล้ชิด เพื่อพูดคุยปรึกษาถึงปัญหาต่าง ๆ ที่กำลังเผชิญอยู่"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="6. อย่าแยกตัวออกจากสังคม พยายามเข้าร่วมกิจกรรมต่าง ๆ กับครอบครัวหรือเพื่อนฝูง รวมทั้งเข้าร่วมกลุ่มบำบัดโรคซึมเศร้าเพื่อแบ่งปันเรื่องราวและความรู้สึกกับผู้ที่มีประสบการณ์คล้ายกัน"></TextView>
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
