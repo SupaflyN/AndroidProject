@@ -529,8 +529,6 @@
                     app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
             </RadioGroup>
 
-
-
             <Button
                 android:id="@+id/buttonSubmit"
                 android:layout_width="match_parent"
