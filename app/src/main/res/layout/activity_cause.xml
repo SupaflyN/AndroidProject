@@ -41,6 +41,14 @@
                 android:layout_marginRight="9dp"
                 android:text=""></TextView>
 
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:id="@+id/home"
+                android:src="@drawable/home"></ImageButton>
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
