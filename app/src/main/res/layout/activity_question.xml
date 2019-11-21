@@ -22,7 +22,7 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="16dp" >
+            android:padding="18dp" >
 
 
 
@@ -30,7 +30,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/wecare" />
+                android:layout_marginBottom="17dp"
+                android:src="@drawable/questiondepress" />
         // Q1
             <TextView
                 android:layout_width="match_parent"
@@ -156,6 +157,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
+                android:background="#ffcccc"
                 android:layout_marginBottom="8dp">
 
                 <RadioButton
@@ -210,6 +212,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
+                android:background="#ffcccc"
                 android:layout_marginBottom="8dp">
 
                 <RadioButton
@@ -251,13 +254,291 @@
             </RadioGroup>
 
 
+            // Q5
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:background="#ac5353"
+                android:layout_height="match_parent"
+                android:text="5.เบื่ออาหาร หรือกินมากเกินไป "></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioQuestion5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="8dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ไม่มีเลย"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <RadioButton
+                    android:id="@+id/radioButton52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="เป็นบางวัน"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton1"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="เป็นบ่อย"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="15dp"
+                    android:text="เป็นทุกวัน"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton3"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+            </RadioGroup>
+
+            // Q6
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:background="#ac5353"
+                android:layout_height="match_parent"
+                android:text="6.รู้สึกไม่ดีกับตัวเอง คิดว่าตัวเองล้มเหลว หรือทำให้ตนเองหรือครอบครัวผิดหวัง"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioQuestion6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcccc"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ไม่มีเลย"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <RadioButton
+                    android:id="@+id/radioButton62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="เป็นบางวัน"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton1"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="เป็นบ่อย"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="15dp"
+                    android:text="เป็นทุกวัน"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton3"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+            </RadioGroup>
+
+            // Q7
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:background="#ac5353"
+                android:layout_height="match_parent"
+                android:text="7.สมาธิไม่ดีเวลาทำอะไร เช่น ดูโทรทัศน์ ฟังวิทยุ หรือทำงานที่ต้องใช้ความตั้งใจ"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioQuestion7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcccc"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ไม่มีเลย"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <RadioButton
+                    android:id="@+id/radioButton72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="เป็นบางวัน"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton1"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="เป็นบ่อย"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="15dp"
+                    android:text="เป็นทุกวัน"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton3"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+            </RadioGroup>
+
+            // Q8
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:background="#ac5353"
+                android:layout_height="match_parent"
+                android:text="8.พูดช้า ทำอะไรช้าลง จนคนอื่นสังเกตเห็นได้ หรือกระสับกระส่ายไม่สามารถอยู่นิ่งได้เหมือนที่เคยเป็น"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioQuestion8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcccc"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton81"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ไม่มีเลย"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <RadioButton
+                    android:id="@+id/radioButton82"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="เป็นบางวัน"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton1"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton83"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="เป็นบ่อย"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="15dp"
+                    android:text="เป็นทุกวัน"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton3"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+            </RadioGroup>
+
+            // Q9
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:background="#ac5353"
+                android:layout_height="match_parent"
+                android:text="9.พูดช้า ทำอะไรช้าลง จนคนอื่นสังเกตเห็นได้ หรือกระสับกระส่ายไม่สามารถอยู่นิ่งได้เหมือนที่เคยเป็น"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioQuestion9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcccc"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton91"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ไม่มีเลย"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <RadioButton
+                    android:id="@+id/radioButton92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="เป็นบางวัน"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton1"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton93"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="เป็นบ่อย"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="15dp"
+                    android:text="เป็นทุกวัน"
+                    app:layout_constraintStart_toStartOf="@+id/radioButton3"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+            </RadioGroup>
+
+
+
             <Button
                 android:id="@+id/buttonSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:layout_marginBottom="8dp"
-                android:text="Check คะแนน"
+                android:textSize="18sp"
+                android:text="ส่งแบบประเมิน"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 
