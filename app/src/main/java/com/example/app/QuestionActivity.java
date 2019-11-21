@@ -31,7 +31,6 @@ public class QuestionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question);
 
-
         Button Submit = (Button)findViewById(R.id.buttonSubmit);
         Submit.setOnClickListener(new View.OnClickListener() {
 

@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
-        private ImageButton imageStartQuestion,imageWhatis,imageScope,imageHistory;
+        private ImageButton imageStartQuestion,imageWhatis,imageScope,imageHistory,home;
 //TODSOB
 
 
@@ -50,16 +50,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton imageHistory = (ImageButton) findViewById(R.id.imageHistory);
-        imageStartQuestion.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageHistory  = (ImageButton) findViewById(R.id.imageHistory);
+        imageHistory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), QuestionActivity.class);
+                Intent intent = new Intent(getApplicationContext(), history.class);
                 startActivity(intent);
             }
         });
-
-
-
     }
 }
+
+
+
+
+
