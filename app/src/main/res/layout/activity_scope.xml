@@ -6,5 +6,45 @@
     android:layout_height="match_parent"
     android:background="@drawable/backgroud"
     tools:context=".ScopeActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="38dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="15dp"
+             android:layout_marginBottom="0dp"
+             android:src="@drawable/wecare"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:layout_marginBottom="8dp"
+
+
+            android:src="@drawable/howtoscope"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+
+
+            android:text="เป็นความผิดปกติทางจิตซึ่งทำให้ผู้ป่วยเกิดอารมณ์ซึมเศร้าอย่างน้อย 2 สัปดาห์ในแทบทุกสถานการณ์ มักเกิดร่วมกับ การขาดความภูมิใจตนเอง การเสียความสนในกิจกรรมที่ทำให้เพลิดเพลินใจ อาการไร้เรี่ยวแรง และอาการปวดซึ่งไม่มีสาเหตุชัดเจน ผู่ป่วยบางรายมีช่วงเวลาที่อารมณ์ซึมเศร้าห่างกันเป็นปีๆ"></TextView>
+
+
+</LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
