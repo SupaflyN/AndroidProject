@@ -11,6 +11,11 @@ public class MainActivity extends AppCompatActivity {
 
         private ImageButton imageStartQuestion,imageWhatis,imageScope;
 //TODSOB
+
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
