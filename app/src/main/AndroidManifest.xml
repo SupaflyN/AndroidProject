@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ResultActivity"></activity>
+        <activity android:name=".highrisk"></activity>
+        <activity android:name=".mediumriskActivity" />
+        <activity android:name=".lowriskActivity" />
+        <activity android:name=".noriskActivity" />
+        <activity android:name=".ResultActivity" />
         <activity android:name=".ScopeActivity" />
         <activity android:name=".QuestionActivity" />
         <activity android:name=".WhatisActivity" />
