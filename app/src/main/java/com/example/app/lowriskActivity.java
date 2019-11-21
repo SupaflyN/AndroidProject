@@ -13,6 +13,9 @@ public class lowriskActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lowrisk);
+
+
+
         ImageButton home = (ImageButton) findViewById(R.id.home);
         home.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -14,12 +14,11 @@
         <activity android:name=".highrisk" />
         <activity android:name=".mediumriskActivity" />
         <activity android:name=".lowriskActivity" />
-        <activity android:name=".noriskActivity" />
+        <activity android:name=".NoriskActivity" />
         <activity android:name=".ResultActivity" />
         <activity android:name=".ScopeActivity" />
         <activity android:name=".QuestionActivity" />
         <activity android:name=".WhatisActivity" />
-        <activity android:name=".Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

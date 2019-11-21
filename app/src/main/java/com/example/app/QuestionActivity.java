@@ -4,18 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import org.w3c.dom.Text;
-
-import java.util.concurrent.ConcurrentHashMap;
 
 public class QuestionActivity extends AppCompatActivity {
 
@@ -37,8 +31,8 @@ public class QuestionActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-
                 int score = 0;
+
                 if (((RadioButton) findViewById(R.id.radioButton1)).isChecked()) score += 0;
                 if (((RadioButton) findViewById(R.id.radioButton2)).isChecked()) score += 1;
                 if (((RadioButton) findViewById(R.id.radioButton3)).isChecked()) score += 2;
@@ -86,10 +80,13 @@ public class QuestionActivity extends AppCompatActivity {
                 if (((RadioButton) findViewById(R.id.radioButton94)).isChecked()) score += 3;
 
 
-                if (score >= 3) {
-                    Intent intent = new Intent(getApplicationContext(), noriskActivity.class);
-                    startActivity(intent);
-                }
+                if (score <= 7) {
+                    Intent intent = new Intent(getApplicationContext(), NoriskActivity.class);
+                    startActivity(intent); }
+                if (score >= 12) {
+                    Intent intent = new Intent(getApplicationContext(), WhatisActivity.class);
+                    startActivity(intent); }
+
             }
 
         });}
@@ -100,8 +97,6 @@ public class QuestionActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER, 0 , 0);
         toast.show();
-
-
     }
 }
 
