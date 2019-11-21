@@ -26,6 +26,7 @@
 
 
 
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -34,15 +35,18 @@
             <TextView
                 android:layout_width="match_parent"
                 android:padding="10dp"
-
+                android:textSize="18sp"
+                android:background="#ac5353"
                 android:layout_height="match_parent"
-                android:text="1. คำถามแรก "></TextView>
+                android:text="1.เบื่อ ไม่สนใจอยากทำอะไร "></TextView>
 
             <RadioGroup
                 android:id="@+id/radioQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18sp"
                  android:padding="16dp"
+                android:background="#ffcccc"
                  android:layout_marginBottom="8dp">
 
                 <RadioButton
@@ -87,14 +91,16 @@
             <TextView
                 android:layout_width="match_parent"
                 android:padding="10dp"
-
+                android:background="#ac5353"
                 android:layout_height="match_parent"
-                android:text="2. คำถามแรก "></TextView>
+                android:text="2.ไม่สบายใจ ซึมเศร้า ท้อแท้ "
+                android:textSize="18sp"></TextView>
 
             <RadioGroup
                 android:id="@+id/radioQuestion2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#ffcccc"
                 android:padding="16dp"
                 android:layout_marginBottom="8dp">
 
@@ -140,9 +146,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:padding="10dp"
-
+                android:textSize="18sp"
+                android:background="#ac5353"
                 android:layout_height="match_parent"
-                android:text="3. คำถามแรก "></TextView>
+                android:text="3.หลับยาก หรือหลับๆ ตื่นๆ หรือหลับมากไป "></TextView>
 
             <RadioGroup
                 android:id="@+id/radioQuestion3"
@@ -193,9 +200,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:padding="10dp"
-
+                android:textSize="18sp"
+                android:background="#ac5353"
                 android:layout_height="match_parent"
-                android:text="4. คำถามแรก "></TextView>
+                android:text="4.เหนื่อยง่าย หรือ ไม่ค่อยมีแรง "></TextView>
 
             <RadioGroup
                 android:id="@+id/radioQuestion4"
