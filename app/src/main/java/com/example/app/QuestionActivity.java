@@ -34,8 +34,7 @@ public class QuestionActivity extends AppCompatActivity {
 
         Button Submit = (Button)findViewById(R.id.buttonSubmit);
         Submit.setOnClickListener(new View.OnClickListener() {
-            //55556666666//55556666666
-//55556666666
+
 
             @Override
             public void onClick(View view) {
