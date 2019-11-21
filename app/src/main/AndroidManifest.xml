@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".history"></activity>
+        <activity android:name=".cause"></activity>
+        <activity android:name=".type" />
+        <activity android:name=".history" />
         <activity android:name=".highrisk" />
         <activity android:name=".mediumriskActivity" />
         <activity android:name=".lowriskActivity" />
