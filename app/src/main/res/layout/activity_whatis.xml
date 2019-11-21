@@ -7,5 +7,41 @@
     android:background="@drawable/backgroud"
     tools:context=".WhatisActivity">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="374dp"
+        android:layout_height="329dp"
+        android:text="เป็นความผิดปกติทางจิตซึ่งทำให้ผู้ป่วยเกิดอารมณ์ซึมเศร้าอย่างน้อย 2 สัปดาห์ในแทบทุกสถานการณ์ มักเกิดร่วมกับ การขาดความภูมิใจตนเอง การเสียความสนในกิจกรรมที่ทำให้เพลิดเพลินใจ อาการไร้เรี่ยวแรง และอาการปวดซึ่งไม่มีสาเหตุชัดเจน ผู่ป่วยบางรายมีช่วงเวลาที่อารมณ์ซึมเศร้าห่างกันเป็นปีๆ ส่วนบางรายอาจมีอาการตลอดเวลา ซึ่งส่งผลกระทบในแง่ลบให้แก่ผู้ป่วย เช่น การใช้ชีวิตส่วนตัว การทำงาน ตลอดจนการหลับ อุปนิสัยการกิน และสุขภาพโดยทั่วไปของผู้ป่วย "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="โรคซึมเศร้าคืออะไร"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="106dp"
+        android:layout_height="176dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/whatis" />
 </androidx.constraintlayout.widget.ConstraintLayout>
