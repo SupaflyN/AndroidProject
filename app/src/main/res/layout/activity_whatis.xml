@@ -71,6 +71,13 @@
                 android:layout_marginRight="9dp"
                 android:text="          ผู้ที่ป่วยเป็นโรคซึมเศร้าจะมีการเปลี่ยนแปลงไปจากเดิมค่อนข้างมาก การเปลี่ยนแปลงหลักๆ จะเป็นในด้านอารมณ์ ความรู้สึกนึกคิด พฤติกรรม ร่วมกับอาการทางร่างกายต่างๆ ดังจะได้กล่าวต่อไป"></TextView>
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:layout_marginBottom="8dp"
+                android:padding="0dp"
+                android:src="@drawable/whatisimg3"></ImageView>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -150,6 +157,49 @@
                 android:background="#ffcccc"
                 android:layout_marginRight="9dp"
                 android:text="7. อาการโรคจิต จะพบในรายที่เป็นรุนแรงซึ่งนอกจากผู้ที่เป็นจะมีอาการซึมเศร้ามากแล้ว จะยังพบว่ามีอาการของโรคจิตได้แก่ อาการหลงผิดหรือประสาทหลอนร่วมด้วย ที่พบบ่อยคือ จะเชื่อว่ามีคนคอยกลั่นแกล้ง หรือประสงค์ร้ายต่อตนเอง อาจมีหูแว่วเสียงคนมาพูดคุยด้วย อย่างไรก็ตามอาการเหล่านี้มักจะเป็นเพียงชั่วคราวเท่านั้น เมื่อได้รับการรักษา อารมณ์เศร้าดีขึ้น อาการโรคจิตก็มักทุเลาตาม"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:layout_marginBottom="8dp"
+                android:padding="0dp"
+                android:src="@drawable/whatisimg4"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="จะรู้ได้อย่างไรว่าเป็นโรคนี้หรือเปล่า"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="              บางคนที่อ่านถึงตอนนี้อาจรู้สึกว่าตนเองก็มีอะไรหลายๆ อย่างเข้ากันได้กับโรคซึมเศร้าที่ว่า แต่ก็มีหลายๆ อย่างที่ไม่เหมือนทีเดียวนัก ทำให้อาจสงสัยว่าจะรู้ได้อย่างไรว่าตนเองเป็นหรือเปล่า"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="          อาการซึมเศร้านั้นมีด้วยกันหลายระดับตั้งแต่น้อยๆ ที่เกิดขึ้นได้ในชีวิตประจำวัน ไปจนเริ่มมีผลกระทบต่อการดำรงชีวิตประจำวัน และบางคนอาจเป็นถึงระดับของโรคซึมเศร้า อาการที่พบร่วมอาจเริ่มตั้งแต่รู้สึกเบื่อหน่าย ไปจนพบอาการต่างๆ มากมาย ดังได้กล่าวในบทต้นๆ"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="          แบบสอบถามภาวะอารมณ์เศร้า (Patient Health Questionnaire; PHQ9) เป็นแบบสอบถามทีใช้เพื่อช่วยในการประเมินว่าผู้ตอบมีมีภาวะซึมเศร้าหรือไม่ รุนแรงมากน้อยเพียงใด เป็นมากจนถึงระดับที่ไม่ควรจะปล่อยทิ้งไว้หรือไม่ แบบสอบถามนี้ไม่ได้บอกว่าเป็นโรคอะไร เพียงแต่ช่วยบอกว่าภาวะซึมเศร้าที่มีอยู่ในระดับไหนเท่านั้น ในการวินิจฉัยว่าเป็นโรคซึมเศร้าหรือไม่นั้น ผู้ที่มีอารมณ์ซึมเศร้ายังต้องมีอาการที่เข้าตามเกณฑ์การวินิจฉัยด้านล่าง"></TextView>
 
                     <ImageButton
                         android:layout_width="match_parent"
