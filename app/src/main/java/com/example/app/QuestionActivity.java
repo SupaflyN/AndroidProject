@@ -86,13 +86,13 @@ public class QuestionActivity extends AppCompatActivity {
                 if (((RadioButton) findViewById(R.id.radioButton94)).isChecked()) score += 3;
 
 
-
-            displayResult(score);
-        }
+                if (score >= 3) {
+                    Intent intent = new Intent(getApplicationContext(), noriskActivity.class);
+                    startActivity(intent);
+                }
+            }
 
         });}
-
-
 
 
     private void displayResult(int score) {
