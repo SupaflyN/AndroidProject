@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".GlobalSettings"
         android:theme="@style/AppTheme">
         <activity android:name=".highrisk"></activity>
         <activity android:name=".mediumriskActivity" />
