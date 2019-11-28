@@ -39,7 +39,7 @@
                 android:background="#ffcccc"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:text="          สำหรับคนส่วนใหญ่แล้วคำว่าโรคซึมเศร้าฟังดูไม่คุ้นหู ถ้าพูดถึงเรื่องซึมเศร้าเรามักจะนึกกันว่าเป็นเรื่องของอารมณ์ความรู้สึกที่เกิดจากความผิดหวัง หรือการสูญเสียมากกว่าที่จะเป็นโรค ซึ่งตามจริงแล้ว ที่เราพบกันในชีวิตประจำวันส่วนใหญ่ก็จะเป็นเรื่องของอารมณ์ความรู้สึกธะรรมดาๆ ที่มีกันในชีวิตประจำวัน มากบ้างน้อยบ้าง อย่างไรก็ตามในบางครั้ง ถ้าอารมณ์เศร้าที่เกิดขึ้นนั้นเป็นอยู่นานโดยไม่มีทีท่าว่าจะดีขึ้น หรือเป็นรุนแรง มีอาการต่างๆ ติดตามมา เช่น นอนหลับๆ ตื่นๆ เบื่ออาหาร น้ำหนักลดลงมาก หมดความสนใจต่อโลกภายนอก ไม่คิดอยากมีชีวิตอยู่อีกต่อไป ก็อาจจะเข้าข่ายของโรคซึมเศร้าแล้ว์"></TextView>
+                android:text="          สำหรับคนส่วนใหญ่แล้วคำว่าโรคซึมเศร้าฟังดูไม่คุ้นหู ถ้าพูดถึงเรื่องซึมเศร้าเรามักจะนึกกันว่าเป็นเรื่องของอารมณ์ความรู้สึกที่เกิดจากความผิดหวัง หรือการสูญเสียมากกว่าที่จะเป็นโรค ซึ่งตามจริงแล้ว ที่เราพบกันในชีวิตประจำวันส่วนใหญ่ก็จะเป็นเรื่องของอารมณ์ความรู้สึกธะรรมดาๆ ที่มีกันในชีวิตประจำวัน มากบ้างน้อยบ้าง อย่างไรก็ตามในบางครั้ง ถ้าอารมณ์เศร้าที่เกิดขึ้นนั้นเป็นอยู่นานโดยไม่มีทีท่าว่าจะดีขึ้น หรือเป็นรุนแรง มีอาการต่างๆ ติดตามมา เช่น นอนหลับๆ ตื่นๆ เบื่ออาหาร น้ำหนักลดลงมาก หมดความสนใจต่อโลกภายนอก ไม่คิดอยากมีชีวิตอยู่อีกต่อไป ก็อาจจะเข้าข่ายของโรคซึมเศร้าแล้ว"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -201,12 +201,56 @@
                 android:layout_marginRight="9dp"
                 android:text="          แบบสอบถามภาวะอารมณ์เศร้า (Patient Health Questionnaire; PHQ9) เป็นแบบสอบถามทีใช้เพื่อช่วยในการประเมินว่าผู้ตอบมีมีภาวะซึมเศร้าหรือไม่ รุนแรงมากน้อยเพียงใด เป็นมากจนถึงระดับที่ไม่ควรจะปล่อยทิ้งไว้หรือไม่ แบบสอบถามนี้ไม่ได้บอกว่าเป็นโรคอะไร เพียงแต่ช่วยบอกว่าภาวะซึมเศร้าที่มีอยู่ในระดับไหนเท่านั้น ในการวินิจฉัยว่าเป็นโรคซึมเศร้าหรือไม่นั้น ผู้ที่มีอารมณ์ซึมเศร้ายังต้องมีอาการที่เข้าตามเกณฑ์การวินิจฉัยด้านล่าง"></TextView>
 
-                    <ImageButton
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@null"
-                        android:id="@+id/home"
-                        android:src="@drawable/home"></ImageButton>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:layout_marginBottom="8dp"
+                android:padding="0dp"
+                android:src="@drawable/whatis5"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="ประเภทโรคซึมเศร้า"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="1. โรคซึมเศร้าแบบเมเจอร์ ดีเพรสชั่น (Major Depression) ผู้ที่ป่วยเป็นโรคซึมเศร้าชนิดนี้ จะมีความผิดปกติที่มีอารมณ์ซึมเศร้านานกว่า 2 สัปดาห์ ผู้ที่ป่วยจะมีอาการเศร้าสลดอย่างมาก จนไม่มีความสนใจในกิจกรรมต่างๆ ที่จะช่วยทำให้กลับมามีความสุขสดชื่นเหมือนเดิม ดังนั้นควรเริ่มรักษาแต่เนิ่นๆ จะช่วยไม่ให้โรคซึมเศร้าแบบนี้มีความรุนแรงขึ้น อีกทั้งยังลดความเสี่ยงต่อการฆ่าตัวตายอีกด้วย"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="2. โรคซึมเศร้าแบบดิสทีเมีย (Dysthymia Depression)ผู้ที่เป็นโรคซึมเศร้าชนิดนี้ จะมีอาการรุนแรงน้อยกว่าชนิดแรก แต่เป็นอย่างต่อเนื่องนานกว่า นั่นคือ จะมีอาการอย่างน้อย 2 ปี แต่มักจะนานกว่า 5 ปี อาการไม่รุนแรงถึงขนาดทำอะไรไม่ได้ เนื่องจากผู้ที่ป่วยจะมีอารมณ์ผิดปกติสลับไปด้วย"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="3. โรคซึมเศร้าแบบไบโพลาร์ ดิสออร์เดอร์ (Bipolar disorder) ผู้ป่วยที่เป็นโรคซึมเศร้า ชนิดนี้บางรายจะมีอารมณ์เซ็ง ซึมเศร้าสลับกับอาการลิงโลด โดยเป็นอารมณ์ที่ต่างกัน หรือ ต่างขั้วกัน โดยซึมเศร้าชนิดนี้จะมีผลต่อการตัดสินใจและมักก่อให้เกิดปัญหา เช่น การใช้จ่ายสุรุ่ยสุร่าย หรือตัดสินใจผิดๆ และอาจมีความคิดฆ่าตัวตายในช่วงที่มีอาการซึมเศร้าได้"></TextView>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:id="@+id/home"
+                android:src="@drawable/home"></ImageButton>
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

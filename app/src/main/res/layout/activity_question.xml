@@ -481,7 +481,7 @@
                 android:textSize="18sp"
                 android:background="#ac5353"
                 android:layout_height="match_parent"
-                android:text="9.พูดช้า ทำอะไรช้าลง จนคนอื่นสังเกตเห็นได้ หรือกระสับกระส่ายไม่สามารถอยู่นิ่งได้เหมือนที่เคยเป็น"></TextView>
+                android:text="9.คิดทำร้ายตนเอง หรือคิดว่าถ้าตายไปคงจะดี"></TextView>
 
             <RadioGroup
                 android:id="@+id/radioQuestion9"
