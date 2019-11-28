@@ -284,8 +284,6 @@
                 android:id="@+id/home"
                 android:src="@drawable/home"></ImageButton>
 
-
-
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
