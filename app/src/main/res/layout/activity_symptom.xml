@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:padding="15dp"
                 android:layout_marginBottom="0dp"
-                android:src="@drawable/causelogo"></ImageView>
+                android:src="@drawable/symptomlogo"></ImageView>
 
             <ImageView
                 android:layout_width="match_parent"
