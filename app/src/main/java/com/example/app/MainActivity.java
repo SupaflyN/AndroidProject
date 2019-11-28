@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton imageHistory  = (ImageButton) findViewById(R.id.imageHistory);
+        ImageButton imageHistory = (ImageButton) findViewById(R.id.imageCure);
         imageHistory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,6 +58,26 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageButton imageSymptom = (ImageButton) findViewById(R.id.imageSymptom);
+        imageSymptom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), symptom.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton imagePlace = (ImageButton) findViewById(R.id.imagePlace);
+        imagePlace.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), place.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }
 
