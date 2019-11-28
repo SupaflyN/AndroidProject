@@ -24,8 +24,8 @@ public class mediumriskActivity extends AppCompatActivity {
             }
         });
 
-        Button buttonCope3 = (Button) findViewById(R.id.buttonCope3);
-        buttonCope3.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageCope3 = (ImageButton) findViewById(R.id.imageCope3);
+        imageCope3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ScopeActivity.class);

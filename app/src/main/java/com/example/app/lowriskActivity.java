@@ -26,8 +26,8 @@ public class lowriskActivity extends AppCompatActivity {
             }
         });
 
-        Button buttonCope2 = (Button) findViewById(R.id.buttonCope2);
-        buttonCope2.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageCope2 = (ImageButton) findViewById(R.id.imageCope2);
+        imageCope2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ScopeActivity.class);

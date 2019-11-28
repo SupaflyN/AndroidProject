@@ -528,16 +528,13 @@
                     app:layout_constraintStart_toStartOf="@+id/radioButton3"
                     app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
             </RadioGroup>
-            <Button
-                android:id="@+id/buttonSubmit"
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/imageSend"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:layout_marginBottom="8dp"
-                android:textSize="18sp"
-                android:text="ส่งแบบประเมิน"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
+                app:srcCompat="@drawable/sendimg" />
 
         </LinearLayout>
     </ScrollView>

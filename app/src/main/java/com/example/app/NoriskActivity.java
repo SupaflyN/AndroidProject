@@ -25,8 +25,8 @@ public class NoriskActivity extends AppCompatActivity {
             }
         });
 
-        Button buttonCope1 = (Button) findViewById(R.id.buttonCope1);
-        buttonCope1.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageCope1 = (ImageButton) findViewById(R.id.imageCope1);
+        imageCope1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ScopeActivity.class);

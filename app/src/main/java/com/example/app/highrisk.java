@@ -23,8 +23,8 @@ public class highrisk extends AppCompatActivity {
             }
         });
 
-        Button buttonCope4 = (Button) findViewById(R.id.buttonCope4);
-        buttonCope4.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageCope4 = (ImageButton) findViewById(R.id.imageCope4);
+        imageCope4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ScopeActivity.class);

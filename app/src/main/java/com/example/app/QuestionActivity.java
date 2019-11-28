@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -15,7 +16,7 @@ public class QuestionActivity extends AppCompatActivity {
 
     RadioButton radioButton1, radioButton2, radioButton3, radioButton4;
     TextView tv,textScore;
-    Button Submit;
+    ImageButton send;
 
 
 
@@ -25,8 +26,8 @@ public class QuestionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question);
 
-        Button Submit = (Button)findViewById(R.id.buttonSubmit);
-        Submit.setOnClickListener(new View.OnClickListener() {
+        ImageButton send = (ImageButton) findViewById(R.id.imageSend);
+        send.setOnClickListener(new View.OnClickListener() {
 
 
             @Override
