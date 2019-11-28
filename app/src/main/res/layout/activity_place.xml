@@ -29,7 +29,17 @@
                 android:layout_height="299dp"
                 android:layout_marginBottom="8dp"
                 android:padding="0dp"
-                android:src="@drawable/melancholy"></ImageView>
+                android:src="@drawable/placeimg"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="โรงพยาบาลในประเทศไทยที่มีจิตแพทย์ให้การรักษา"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -39,7 +49,373 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:text=""></TextView>
+                android:text="          สมาคมจิตแพทย์แห่งประเทศไทย ได้ระบุรายชื่อโรงพยาบาลที่มีจิตแพทย์ในประเทศไทย ว่ามีดังต่อไปนี้"></TextView>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="#ffcccc"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:text="โรงพยาบาลรัฐบาลในกรุงเทพฯ และปริมณฑล"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="1.สถาบันจิตเวชศาสตร์สมเด็จเจ้าพระยา\n
+2.	สถาบันประสาทวิทยา\n
+3.	สถาบันกัลยาณ์ราชนครินทร์\n
+4.	สถาบันธัญญารักษ์ (สถาบันบำบัดรักษาและฟื้นฟูผู้ติดยาเสพติดแห่งชาติบรมราชชนนี)\n
+5.	สถาบันเวชศาสตร์การบิน กองทัพอากาศ\n
+6.	คณะแพทยศาสตร์ มหาวิทยาลัยธรรมศาสตร์ รังสิต\n
+7.	คณะแพทยศาสตร์ วชิรพยาบาล\n
+8.	โรงพยาบาลศรีธัญญา\n
+9.	โรงพยาบาลรามาธิบดี\n
+10.	โรงพยาบาลราชวิถี\n
+11.	โรงพยาบาลศิริราช\n
+12.	โรงพยาบาลพระมงกุฎฯ\n
+13.	โรงพยาบาลจุฬาลงกรณ์\n
+14.	โรงพยาบาลกลาง\n
+15.	โรงพยาบาลตำรวจ\n
+16.	โรงพยาบาลจุฬาภรณ์ (รับเฉพาะผู้ป่วยมะเร็งของรพ.)\n
+17.	โรงพยาบาลเจริญกรุงประชารักษ์\n
+18.	โรงพยาบาลตากสิน\n
+19.	โรงพยาบาลทหารผ่านศึก\n
+20.	โรงพยาบาลภูมิพลอดุยเดช\n
+21.	โรงพยาบาลมเหสักข์\n
+22.	โรงพยาบาลเลิดสิน\n
+23.	โรงพยาบาลนพรัตนราชธานี\n
+24.	โรงพยาบาลสมเด็จพระปิ่นเกล้า\n
+25.	โรงพยาบาลสงฆ์\n
+26.	โรงพยาบาลพร้อมมิตร (รพ.บ้านแพ้ว สาขาพร้อมมิตร)\n
+27.	โรงพยาบาลสมุทรสาคร\n
+28.	โรงพยาบาลนครปฐม\n
+29.	โรงพยาบาลปทุมธานี\n
+30.	ศูนย์การแพทย์ปัญญานันทภิกขุ ชลประทาน มหาวิทยาลัยศรีนครินทรวิโรฒ (รพ.ชลประทาน จ.นนทบุรี)\n
+31.	ศูนย์บริการสาธารณสุข 3 บางซื่อ\n
+32.	ศูนย์บริการสาธารณสุข 4 ดินแดง\n
+33.	ศูนย์บริการสาธารณสุข 21 วัดธาตุทอง\n
+34.	ศูนย์บริการสาธารณสุข 23 สี่พระยา\n
+35.	ศูนย์บริการสาธารณสุข 24 บางเขน\n
+36.	ศูนย์บริการสาธารณสุข 33 วัดหงส์รัตนาราม\n
+"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="โรงพยาบาลเอกชนในกรุงเทพฯ และปริมณฑล"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="1.โรงพยาบาลกล้วยน้ำไท\n
+2.	โรงพยาบาลกรุงเทพ\n
+3.	โรงพยาบาลกรุงเทพคริสเตียน\n
+4.	โรงพยาบาลเกษมราษฎร์ ประชาชื่น\n
+5.	โรงพยาบาลคามิลเลียน\n
+6.	โรงพยาบาลเจ้าพระยา\n
+7.	โรงพยาบาลเซ็นต์หลุยส์\n
+8.	โรงพยาบาลเซ็นทรัลเยนเนอรัล\n
+9.	โรงพยาบาลเทพธารินทร์\n
+10.	โรงพยาบาลไทยนครินทร์\n
+11.	โรงพยาบาลธนบุรี\n
+12.	โรงพยาบาลนครธน\n
+13.	โรงพยาบาลนนทเวช\n
+14.	โรงพยาบาลนวมินทร์ 1\n
+15.	โรงพยาบาลนวมินทร์ 9\n
+16.	โรงพยาบาลบางนา 1\n
+17.	โรงพยาบาลบางนา 2\n
+18.	โรงพยาบาลบางโพ\n
+19.	โรงพยาบาลบางมด\n
+20.	โรงพยาบาลบางปะกอก 9 อินเตอร์เนชั่นแนล\n
+21.	โรงพยาบาลบีเอ็นเอช\n
+22.	โรงพยาบาลบีแคร์\n
+23.	โรงพยาบาลบำรุงราษฎร์\n
+24.	โรงพยาบาลประชาพัฒน์ (เดิมชื่อ รพ.นวมินทร์ 2)\n
+25.	โรงพยาบาลปิยะมินทร์ สมุทรปราการ\n
+26.	โรงพยาบาลปิยะเวท\n
+27.	โรงพยาบาลเปาโล โชคชัย 4\n
+28.	โรงพยาบาลเปาโล สมุทรปราการ\n
+29.	โรงพยาบาลเปาโล สะพานควาย\n
+30.	โรงพยาบาลพญาไท 1\n
+31.	โรงพยาบาลพญาไท 2\n
+32.	โรงพยาบาลพญาไท 3\n
+33.	โรงพยาบาลพญาไท นวมินทร์\n
+34.	โรงพยาบาลพระราม 2\n
+35.	โรงพยาบาลพระราม 9\n
+36.	โรงพยาบาลเพชรเวช\n
+37.	โรงพยาบาลแพทย์รังสิต\n
+38.	โรงพยาบาลภัทรธนบุรี\n
+39.	โรงพยาบาลมงกุฎวัฒนะ\n
+40.	โรงพยาบาลมนารมย์\n
+41.	โรงพยาบาลเมโย\n
+42.	โรงพยาบาลรามคำแหง\n
+43.	โรงพยาบาลราษฎร์บูรณะ\n
+44.	โรงพยาบาลลาดพร้าว\n
+45.	โรงพยาบาลวิชัยยุทธ\n
+46.	โรงพยาบาลวิภาราม (นนทบุรี)\n
+47.	โรงพยาบาลวิภาวดี\n
+48.	โรงพยาบาลเวชธานี\n
+49.	โรงพยาบาลศิครินทร์\n
+50.	โรงพยาบาลศิริราช ปิยมหาราชการุณย์\n
+51.	โรงพยาบาลศรีวิชัย1\n
+52.	โรงพยาบาลสมิติเวช สุขุมวิท\n
+53.	โรงพยาบาลสมิติเวช ศรีนครินทร์\n
+54.	โรงพยาบาลสายไหม\n
+55.	โรงพยาบาลสินแพทย์\n
+56.	โรงพยาบาลสุขสวัสดิ์ (เดิมชื่อ รพ.กรุงธน 2)\n
+57.	โรงพยาบาลหัวเฉียว\n
+58.	โรงพยาบาล World Medical Center\n
+"></TextView>
+
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="#ffcccc"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:text="โรงพยาบาลในต่างจังหวัดทั้งรัฐบาลและเอกชน"></TextView>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="#ffcccc"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:text="ภาคเหนือ"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="1.โรงพยาบาลจอมทอง จ.เชียงใหม่\n
+2.	โรงพยาบาลเชียงใหม่-ราม (เอกชน)\n
+3.	โรงพยาบาลนครพิงค์ จ.เชียงใหม่\n
+4.	โรงพยาบาลธัญญารักษ์ เชียงใหม่\n
+5.	โรงพยาบาลมหาราชนครเชียงใหม่ (โรงพยาบาลสวนดอก)\n
+6.	โรงพยาบาลสวนปรุง (จ.เชียงใหม่)\n
+7.	โรงพยาบาลเชียงรายประชานุเคราะห์\n
+8.	โรงพยาบาลเกษมราษฎร์ศรีบุรินทร์ (เอกชน) จ.เชียงราย\n
+9.	โรงพยาบาลน่าน\n
+10.	โรงพยาบาลแพร่\n
+11.	โรงพยาบาลลำปาง\n
+12.	โรงพยาบาลลำพูน\n
+13.	โรงพยาบาลธัญญารักษ์ แม่ฮ่องสอน\n
+14.	โรงพยาบาลสุโขทัย\n
+15.	โรงพยาบาลอุตรดิตถ์\n
+16.	สถาบันพัฒนาการเด็กราชนครินทร์ (จ.เชียงใหม่)\n
+
+"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="ภาคตะวันตก"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="1.โรงพยาบาลพหลพลพยุหเสนา (จ.กาญจนบุรี)/n
+2.	โรงพยาบาลแม่สอด (จ.ตาก)/n
+3.	โรงพยาบาลราชบุรี/n
+4.	โรงพยาบาลสมเด็จพระเจ้าตากสินมหาราช (จ.ตาก)/n
+5.	โรงพยาบาลพระจอมเกล้า จ.เพชรบุรี/n
+6.	โรงพยาบาลเจ้าพระยายมราช จ.สุพรรณบุรี/n
+7.	โรงพยาบาลหัวหิน จ.ประจวบคีรีขันธ์/n
+8.	โรงพยาบาลบ้านโป่ง จ.ราชบุรี/n
+9.	โรงพยาบาลนภาลัย (เดิมชื่อ รพ.บางคนที จ.สมุทรสงคราม)/n
+
+"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="ภาคตะวันออกเฉียงเหนือ"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="1.คณะแพทยศาสตร์ มหาวิทยาลัยมหาสารคาม\n
+2.	โรงพยาบาลครบุรี (จ.นครราชสีมา)\n
+3.	โรงพยาบาลค่ายสุรนารี (จ.นครราชสีมา)\n
+4.	โรงพยาบาลจิตเวชขอนแก่น\n
+5.	โรงพยาบาลจิตเวชนครพนมราชนครินทร์\n
+6.	โรงพยาบาลจิตเวชเลยราชนครินทร์\n
+7.	โรงพยาบาลชัยภูมิ\n
+8.	โรงพยาบาลเทพรัตน์ (จ.นครราชสีมา)\n
+9.	โรงพยาบาลบุรีรัมย์\n
+10.	โรงพยาบาลปากช่อง (จ.นครราชสีมา)\n
+11.	โรงพยาบาลพระศรีมหาโพธิ์ (จ.อุบลราชธานี)\n
+12.	โรงพยาบาลมหาราชนครราชสีมา\n
+13.	โรงพยาบาลมหาสารคาม\n
+14.	โรงพยาบาลยโสธร\n
+15.	โรงพยาบาลร้อยเอ็ด\n
+16.	โรงพยาบาลศรีสะเกษ\n
+17.	โรงพยาบาลสกลนคร\n
+18.	โรงพยาบาลสุรินทร์\n
+
+"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="ภาคกลาง"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="1.โรงพยาบาลกำแพงเพชร\n
+2.	โรงพยาบาลจิตเวชนครสวรรค์ราชนครินทร์\n
+3.	โรงพยาบาลเจ้าพระยายมราช (จ.สุพรรณบุรี)\n
+4.	โรงพยาบาลนครนายก\n
+5.	โรงพยาบาลนครสวรรค์\n
+6.	โรงพยาบาลพระนารายณ์มหาราช\n
+7.	โรงพยาบาลพระพุทธบาท (จ.สระบุรี)\n
+8.	โรงพยาบาลพิจิตร\n
+9.	โรงพยาบาลพุทธชินราช (จ.พิษณุโลก)\n
+10.	โรงพยาบาลสระบุรี\n
+11.	โรงพยาบาลสวรรค์ประชารักษ์ (จ.นครสวรรค์)\n
+12.	โรงพยาบาลสิงห์บุรี\n
+13.	โรงพยาบาลอานันทมหิดล (จ.ลพบุรี)\n
+14.	โรงพยาบาลอ่างทอง\n
+15.	ศูนย์การแพทย์สมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี (คณะแพทยศาสตร์ มหาวิทยาลัยศรีนครินทรวิโรฒ จ.นครนายก)\n
+
+"></TextView>
+
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="#ffcccc"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:text="ภาคตะวันออก"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="1.คณะแพทยศาสตร์ มหาวิทยาลัยบูรพา\n
+2.	โรงพยาบาลกรุงเทพ พัทยา\n
+3.	โรงพยาบาลกรุงเทพ ระยอง\n
+4.	โรงพยาบาลจิตเวชสระแก้วราชนครินทร์\n
+5.	โรงพยาบาลเจ้าพระยาอภัยภูเบศร์ (จ.ปราจีนบุรี)\n
+6.	โรงพยาบาลชลบุรี\n
+7.	โรงพยาบาลบางละมุง จ.ชลบุรี\n
+8.	โรงพยาบาลพญาไท ศรีราชา\n
+9.	โรงพยาบาลพระปกเกล้า (จ.จันทบุรี)\n
+10.	โรงพยาบาลเมืองฉะเชิงเทรา\n
+11.	โรงพยาบาลระยอง\n
+12.	โรงพยาบาลสมเด็จพระบรมราชเทวี ณ ศรีราชา (จ.ชลบุรี)\n
+13.	โรงพยาบาลสมิติเวช ชลบุรี\n
+14.	โรงพยาบาลอาภากรเกียรติวงศ์ (จ.ชลบุรี)\n
+
+"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="ภาคใต้"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="1.คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์\n
+2.	โรงพยาบาลกรุงเทพ สมุย\n
+3.	โรงพยาบาลกรุงเทพ หาดใหญ่\n
+4.	โรงพยาบาลจิตเวชสงขลาราชนครินทร์\n
+5.	โรงพยาบาลตะกั่วป่า (จ.พังงา)\n
+6.	โรงพยาบาลท่าศาลา (จ.นครศรีธรรมราช)\n
+7.	โรงพยาบาลทุ่งสง (จ.นครศรีธรรมราช)\n
+8.	โรงพยาบาลธัญญารักษ์ สงขลา (เกาะยอ)\n
+9.	โรงพยาบาลธัญญารักษ์ ปัตตานี\n
+10.	โรงพยาบาลนราธิวาสราชนครินทร์\n
+11.	โรงพยาบาลปัตตานี\n
+12.	โรงพยาบาลพัทลุง\n
+13.	โรงพยาบาลมหาราช นครศรีธรรมราช\n
+14.	โรงพยาบาลยะลา\n
+15.	โรงพยาบาลราษฏร์ยินดี (จ.สงขลา)\n
+16.	โรงพยาบาลวชิระ ภูเก็ต\n
+17.	โรงพยาบาลศูนย์ตรัง\n
+18.	โรงพยาบาลสงขลา\n
+19.	โรงพยาบาลสวนสราญรมย์ (จ.สุราษฎร์ธานี)\n
+20.	โรงพยาบาลสุราษฎร์ธานี\n
+
+"></TextView>
 
 
             <ImageButton
