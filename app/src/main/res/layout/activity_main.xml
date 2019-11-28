@@ -26,7 +26,7 @@
         app:layout_constraintTop_toTopOf="parent"></ImageView>
 
     <ImageButton
-        android:id="@+id/imageHistory"
+        android:id="@+id/imageCure"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="42dp"
@@ -35,7 +35,7 @@
         android:background="@null"
         android:padding="0dp"
         android:src="@drawable/history"
-        app:layout_constraintBottom_toTopOf="@+id/imageWhatis3"
+        app:layout_constraintBottom_toTopOf="@+id/imagePlace"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageWhatis"
         app:layout_constraintTop_toBottomOf="@+id/imageScope">
@@ -68,7 +68,7 @@
         android:background="@null"
         android:padding="016dp"
         android:src="@drawable/howtoscope"
-        app:layout_constraintBottom_toTopOf="@+id/imageHistory"
+        app:layout_constraintBottom_toTopOf="@+id/imageCure"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageStart"
         app:layout_constraintTop_toBottomOf="@+id/imageView"></ImageButton>
@@ -84,13 +84,13 @@
         android:background="@null"
         android:padding="0dp"
         android:src="@drawable/whatis"
-        app:layout_constraintBottom_toBottomOf="@+id/imageHistory"
-        app:layout_constraintEnd_toStartOf="@+id/imageHistory"
+        app:layout_constraintBottom_toBottomOf="@+id/imageCure"
+        app:layout_constraintEnd_toStartOf="@+id/imageCure"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageHistory"></ImageButton>
+        app:layout_constraintTop_toTopOf="@+id/imageCure"></ImageButton>
 
     <ImageButton
-        android:id="@+id/imageWhatis2"
+        android:id="@+id/imageSymptom"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="48dp"
@@ -100,13 +100,13 @@
         android:background="@null"
         android:padding="0dp"
         android:src="@drawable/whatis2"
-        app:layout_constraintBottom_toBottomOf="@+id/imageWhatis3"
-        app:layout_constraintEnd_toStartOf="@+id/imageWhatis3"
+        app:layout_constraintBottom_toBottomOf="@+id/imagePlace"
+        app:layout_constraintEnd_toStartOf="@+id/imagePlace"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageWhatis3"></ImageButton>
+        app:layout_constraintTop_toTopOf="@+id/imagePlace"></ImageButton>
 
     <ImageButton
-        android:id="@+id/imageWhatis3"
+        android:id="@+id/imagePlace"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="42dp"
@@ -117,8 +117,8 @@
         android:src="@drawable/whatis3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageWhatis2"
-        app:layout_constraintTop_toBottomOf="@+id/imageHistory"></ImageButton>
+        app:layout_constraintStart_toEndOf="@+id/imageSymptom"
+        app:layout_constraintTop_toBottomOf="@+id/imageCure"></ImageButton>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
