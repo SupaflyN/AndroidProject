@@ -38,15 +38,16 @@
             app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"></ImageView>
+
         <Button
+            android:id="@+id/buttonCope2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:background="#6666"
-            android:textSize="20dp"
             android:layout_marginBottom="20dp"
-            android:text="วิธีรับมือ">
-        </Button>
+            android:background="#6666"
+            android:text="วิธีรับมือ"
+            android:textSize="20dp"></Button>
 
         <ImageButton
             android:id="@+id/home"

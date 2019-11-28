@@ -22,5 +22,6 @@ public class ScopeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 }
