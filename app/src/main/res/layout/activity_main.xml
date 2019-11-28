@@ -13,20 +13,24 @@
 
         android:layout_width="297dp"
         android:layout_height="0dp"
-        android:layout_marginStart="45dp"
-        android:layout_marginLeft="45dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginBottom="22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="57dp"
         android:src="@drawable/wecare"
         app:layout_constraintBottom_toTopOf="@+id/imageStart"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"></ImageView>
 
     <ImageButton
         android:id="@+id/imageWhatis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="46dp"
         android:background="@null"
         android:padding="0dp"
         android:src="@drawable/whatis"
@@ -37,12 +41,16 @@
 
     <ImageButton
         android:id="@+id/imageWhatis2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="73dp"
         android:background="@null"
         android:padding="0dp"
-        android:src="@drawable/whatis"
+        android:src="@drawable/whatis2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageWhatis3"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,50 +58,31 @@
 
     <ImageButton
         android:id="@+id/imageWhatis3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginBottom="7dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
         android:background="@null"
         android:padding="0dp"
-        android:src="@drawable/whatis"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/whatis3"
+        app:layout_constraintBottom_toBottomOf="@+id/imageWhatis2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageWhatis2"
-        app:layout_constraintTop_toBottomOf="@+id/imageHistory"></ImageButton>
-
-    <ImageButton
-        android:id="@+id/imageStart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="7dp"
-        android:background="@null"
-        android:padding="0dp"
-        android:src="@drawable/startques3"
-        app:layout_constraintBottom_toTopOf="@+id/imageWhatis"
-        app:layout_constraintEnd_toStartOf="@+id/imageScope"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"></ImageButton>
+        app:layout_constraintTop_toTopOf="@+id/imageWhatis2"></ImageButton>
 
     <ImageButton
         android:id="@+id/imageHistory"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginBottom="15dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
         android:background="@null"
         android:padding="0dp"
         android:src="@drawable/history"
-        app:layout_constraintBottom_toTopOf="@+id/imageWhatis3"
+        app:layout_constraintBottom_toBottomOf="@+id/imageWhatis"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageWhatis"
-        app:layout_constraintTop_toBottomOf="@+id/imageScope">
+        app:layout_constraintTop_toTopOf="@+id/imageWhatis">
 
     </ImageButton>
 
@@ -101,18 +90,32 @@
         android:id="@+id/imageScope"
         android:layout_width="0dp"
         android:layout_height="0dp"
-
-        android:layout_marginTop="162dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
         android:background="@null"
         android:padding="016dp"
         android:src="@drawable/howtoscope"
-        app:layout_constraintBottom_toTopOf="@+id/imageHistory"
+        app:layout_constraintBottom_toBottomOf="@+id/imageStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageStart"
-        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+        app:layout_constraintTop_toTopOf="@+id/imageStart"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/imageStart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="48dp"
+        android:background="@null"
+        android:padding="0dp"
+        android:src="@drawable/startques3"
+        app:layout_constraintBottom_toTopOf="@+id/imageWhatis"
+        app:layout_constraintEnd_toStartOf="@+id/imageScope"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"></ImageButton>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
