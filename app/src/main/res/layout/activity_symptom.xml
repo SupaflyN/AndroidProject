@@ -29,7 +29,8 @@
                 android:layout_height="299dp"
                 android:layout_marginBottom="8dp"
                 android:padding="0dp"
-                android:src="@drawable/sysptomimg"></ImageView>
+                android:src="@drawable/symptomimg"></ImageView>
+
 
             <TextView
             android:layout_width="match_parent"
@@ -59,77 +60,18 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:text="- รู้สึกสิ้นหวัง ไม่มีค่า ว่างเปล่า ไม่รู้ว่าจะทำอะไรต่อไปหรือทำไปเพื่ออะไร"></TextView>
+                android:text="•	รู้สึกสิ้นหวัง ไม่มีค่า ว่างเปล่า ไม่รู้ว่าจะทำอะไรต่อไปหรือทำไปเพื่ออะไร\n
+•	รู้สึกเศร้า หรือ ในเด็กและวัยรุ่นอาจรู้สึกหงุดหงิดง่าย กระสับกระส่าย หรือกระวนกระวายใจอยู่บ่อยๆ\n
+•	หมดความสนใจในกิจกรรมหรืองานอดิเรกที่เคยชื่นชอบ เช่น รู้สึกเบื่อหน่ายอาหารโปรด\n
+•	น้ำหนักลดลงหรือเพิ่มขึ้นเร็วมาก เนื่องมาจากนิสัยการกินที่เปลี่ยนไป\n
+•	นอนไม่หลับติดต่อเป็นเวลานาน หรือนอนนานผิดปกติ\n
+•	อ่อนเพลีย ไม่มีแรง\n
+•	ไม่มีสมาธิ ไม่สามารถจดจ่อกับสิ่งที่ทำได้เลย บางครั้งก็แสดงอาการหลงๆ ลืมๆ และใช้เวลานานในการตัดสินใจเรื่องต่างๆ\n
+•	คิด พูด และทำงานเร็วขึ้นหรือช้าลง\n
+•	รู้สึกอยากฆ่าตัวตาย พยายามฆ่าตัวตาย หรือทำร้ายตัวเอง\n
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- รู้สึกเศร้า หรือ ในเด็กและวัยรุ่นอาจรู้สึกหงุดหงิดง่าย กระสับกระส่าย หรือกระวนกระวายใจอยู่บ่อยๆ"></TextView>
+"></TextView>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- หมดความสนใจในกิจกรรมหรืองานอดิเรกที่เคยชื่นชอบ เช่น รู้สึกเบื่อหน่ายอาหารโปรด"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- น้ำหนักลดลงหรือเพิ่มขึ้นเร็วมาก เนื่องมาจากนิสัยการกินที่เปลี่ยนไป"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- นอนไม่หลับติดต่อเป็นเวลานาน หรือนอนนานผิดปกติ อ่อนเพลีย ไม่มีแรง"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- ไม่มีสมาธิ ไม่สามารถจดจ่อกับสิ่งที่ทำได้เลย บางครั้งก็แสดงอาการหลงๆ ลืมๆ และใช้เวลานานในการตัดสินใจเรื่องต่างๆ"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- คิด พูด และทำงานเร็วขึ้นหรือช้าลง"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- รู้สึกอยากฆ่าตัวตาย พยายามฆ่าตัวตาย หรือทำร้ายตัวเอง"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -142,14 +84,14 @@
                 android:text="          อาการเหล่านี้มีผลกระทบต่อการเข้าสังคม การทำงาน หรือการใช้ชีวิตในด้านอื่นๆ หากปล่อยไว้นานจะทำให้กลายเป็นโรคซึมเศร้าเรื้อรัง ซึ่งมีอาการรุนแรงกว่านี้มาก ทางที่ดีจึงควรปรึกษาแพทย์ทันทีเพื่อรับการบำบัดทางร่างกายและจิตใจอย่างถูกต้อง ก่อนที่จะสายเกินไป"></TextView>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="          บางครั้งผู้ที่มีภาวะซึมเศร้าก็แสดงออกในลักษณะที่แปลกออกไป จนในบางอาจทำให้ผู้พบเห็นหรือเจ้าตัวไม่คิดว่าตนเองนั้นเป็น “โรคซึมเศร้า” เรามาดูกันว่าสัญญาณแปลกๆ เหล่านั้นมีอะไรบ้าง"></TextView>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:background="#ffcccc"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:text="          บางครั้งผู้ที่มีภาวะซึมเศร้าก็แสดงออกในลักษณะที่แปลกออกไป จนในบางอาจทำให้ผู้พบเห็นหรือเจ้าตัวไม่คิดว่าตนเองนั้นเป็น “โรคซึมเศร้า” เรามาดูกันว่าสัญญาณแปลกๆ เหล่านั้นมีอะไรบ้าง"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -159,107 +101,19 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:text="- รช้อปปิ้งอย่างบ้าคลั่ง: ผู้ป่วยโรคซึมเศร้าบางคนจะมีพฤติกรรมซื้อของอย่างควบคุมไม่ได้ เพื่อหวังเบี่ยงเบนความสนใจจากความเครียดหรือเพื่อปลุกความมั่นใจในตนเอง พฤติกรรมนี้อาจพบได้ในผู้ที่เป็นโรคอารมณ์สองขั้วหรือโรคไบโพลาร์ได้เช่นกัน"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- ดื่มอย่างหนัก: หากคุณรู้สึกว่าคุณต้องการดื่มเพื่อจัดการกับความเครียดหรือความเศร้า คุณอาจกำลังเผชิญภาวะซึมเศร้าอยู่ก็เป็นได้ ซึ่งแม้ว่าการดื่มจะช่วยให้คุณรู้สึกดีและลืมเรื่องแย่ๆ ในชั่วขณะได้ แต่การดื่มแอลกอฮอล์อาจกระตุ้นให้คุณยิ่งรู้สึกแย่กว่าเดิม หรือนำไปสู่ภาวะซึมเศร้าได้ "></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- รหลงลืม: โรคซึมเศร้าอาจเป็นสาเหตุหนึ่งของอาการหลงๆ ลืมๆ ที่เกิดขึ้น โดยจากผลการศึกษาพบว่า โรคซึมเศร้าหรือภาวะเครียดที่เกิดขึ้นเป็นเวลานานจะไปทำให้ระดับคอร์ติซอลหรือฮอร์โมนความเครียดในร่างกายเพิ่มมากขึ้น ซึ่งจะส่งผลต่อสมองบางส่วนที่เชื่อมโยงกับความทรงจำและการเรียนรู้ โรคซึมเศร้าจึงมีความเกี่ยวเนื่องกับการสูญเสียความทรงจำ ซึ่งเป็นเรื่องที่ไม่ค่อยดีนักสำหรับผู้สูงอายุ อย่างไรก็ตาม การรักษาโรคซึมเศร้าจะช่วยแก้ปัญหาเรื่องความจำได้  "></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- รูใช้อินเทอร์เน็ตมากเกินไป: การเสพติดโลกออนไลน์มากกว่าโลกความเป็นจริงอาจเป็นอาการหนึ่งที่บ่งบอกถึงโรคซึมเศร้าได้ ในทางกลับกัน การใช้เวลาบนโลกออนไลน์มากเกินไปก็อาจทำให้มีอาการซึมเศร้าได้"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- กระหน่ำกินอย่างบ้าคลั่ง: ผลการศึกษาเมื่อปี 2010 จากมหาวิทยาลัยอัลบามาเผยว่า วัยรุ่นที่เป็นโรคซึมเศร้ามีแนวโน้มมีน้ำหนักเพิ่มขึ้น แถมยังเสี่ยงต่อการเป็นโรคหัวใจอีกด้วย  "></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- ขโมยของ: พฤติกรรมลักเล็กขโมยน้อยอาจมีสาเหตุมาจากโรคซึมเศร้าได้ เพราะสำหรับผู้ป่วยบางคนที่รู้สึกไร้เรี่ยวแรงในการทำสิ่งต่างๆ และรู้สึกว่าตนเองไร้ค่า การขโมยของเป็นวิธีหนึ่งที่ช่วยให้รู้สึกกระฉับกระเฉงและรู้สึกว่าตนเองสำคัญขึ้นมา ซึ่งสิ่งที่ขโมยมานั้นอาจไม่ได้มีมูลค่าหรือสำคัญเท่ากับความรู้สึกดีที่ได้รับหลังจากขโมยสำเร็จเลย"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- พฤติกรรมทางเพศ: ผู้ป่วยบางรายอาจรับมือกับปัญหาโรคซึมเศร้าด้วยการทำพฤติกรรมทางเพศที่ไม่เหมาะสม เช่น เปลี่ยนคู่นอนบ่อย นอกใจ เสพติดการมีเพศสัมพันธ์ และการมีเพศสัมพันธ์แบบไม่ป้องกัน หรือบางรายก็มีอาการหมดความต้องการทางเพศ ทั้งนี้อาการดังกล่าวอาจสัมพันธ์กับการเป็นโรคไบโพลาร์ได้เช่นกัน"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- แสดงอารมณ์อย่างสุดเหวี่ยง: หลายๆ คนที่เป็นโรคซึมเศร้าจะเผลอแสดงอารมณ์มากเกินปกติ บางครั้งก็ขี้โมโหหรือระเบิดอารมณ์ออกมา บางครั้งก็เศร้าเสียใจ หมดหวัง วิตกกังวล และหวาดกลัว ซึ่งความผิดปกตินี้มักสังเกตได้ชัดเจนในผู้ที่เคยนิ่งขรึมและไม่ค่อยพูด"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- เสพติดการพนัน: การพนันอาจทำให้คุณรู้สึกตื่นเต้นและกระชุ่มกระชวย แต่หากคุณเสพติดการเล่นพนันจนเป็นนิสัย คุณอาจต้องทุกข์ทรมานใจภายหลังก็เป็นได้ โดยหลายคนที่เล่นการพนันบอกว่า ตนเองจะรู้สึกวิตกกังวลและซึมเศร้าก่อนเริ่มเล่นการพนัน และเมื่อเจอความผิดหวังก็อาจทำให้ยิ่งรู้สึกแย่ลงไปอีก  "></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- สูบบุหรี่: การเป็นโรคซึมเศร้าจะยิ่งทำให้คุณต้องการสูบบุหรี่มากขึ้น เรียกได้ว่า ยิ่งซึมเศร้ายิ่งสูบหนัก โดยอาจสูบประมาณ 1 ซองต่อวัน หรือสูบบุหรี่ทุก ๆ 5 นาทีเลยทีเดียว"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- ไม่ใส่ใจตนเอง: การละเลยหรือไม่ใส่ใจตนเอง เป็นสัญญาณของโรคซึมเศร้าและการขาดความมั่นใจในตนเอง พฤติกรรมอาจเริ่มตั้งแต่การไม่แปรงฟัน ไปถึงขั้นโดดสอบ หรือไม่ใส่ใจโรคร้ายต่างๆ ที่ตนเป็น"></TextView>
+                android:text=" •	ช้อปปิ้งอย่างบ้าคลั่ง: ผู้ป่วยโรคซึมเศร้าบางคนจะมีพฤติกรรมซื้อของอย่างควบคุมไม่ได้ เพื่อหวังเบี่ยงเบนความสนใจจากความเครียดหรือเพื่อปลุกความมั่นใจในตนเอง พฤติกรรมนี้อาจพบได้ในผู้ที่เป็นโรคอารมณ์สองขั้วหรือโรคไบโพลาร์ได้เช่นกัน\n
+•	ดื่มอย่างหนัก: หากคุณรู้สึกว่าคุณต้องการดื่มเพื่อจัดการกับความเครียดหรือความเศร้า คุณอาจกำลังเผชิญภาวะซึมเศร้าอยู่ก็เป็นได้ ซึ่งแม้ว่าการดื่มจะช่วยให้คุณรู้สึกดีและลืมเรื่องแย่ๆ ในชั่วขณะได้ แต่การดื่มแอลกอฮอล์อาจกระตุ้นให้คุณยิ่งรู้สึกแย่กว่าเดิม หรือนำไปสู่ภาวะซึมเศร้าได้\n
+•	หลงลืม: โรคซึมเศร้าอาจเป็นสาเหตุหนึ่งของอาการหลงๆ ลืมๆ ที่เกิดขึ้น โดยจากผลการศึกษาพบว่า โรคซึมเศร้าหรือภาวะเครียดที่เกิดขึ้นเป็นเวลานานจะไปทำให้ระดับคอร์ติซอลหรือฮอร์โมนความเครียดในร่างกายเพิ่มมากขึ้น ซึ่งจะส่งผลต่อสมองบางส่วนที่เชื่อมโยงกับความทรงจำและการเรียนรู้ โรคซึมเศร้าจึงมีความเกี่ยวเนื่องกับการสูญเสียความทรงจำ ซึ่งเป็นเรื่องที่ไม่ค่อยดีนักสำหรับผู้สูงอายุ อย่างไรก็ตาม การรักษาโรคซึมเศร้าจะช่วยแก้ปัญหาเรื่องความจำได้\n
+•	ใช้อินเทอร์เน็ตมากเกินไป: การเสพติดโลกออนไลน์มากกว่าโลกความเป็นจริงอาจเป็นอาการหนึ่งที่บ่งบอกถึงโรคซึมเศร้าได้ ในทางกลับกัน การใช้เวลาบนโลกออนไลน์มากเกินไปก็อาจทำให้มีอาการซึมเศร้าได้\n
+•	กระหน่ำกินอย่างบ้าคลั่ง: ผลการศึกษาเมื่อปี 2010 จากมหาวิทยาลัยอัลบามาเผยว่า วัยรุ่นที่เป็นโรคซึมเศร้ามีแนวโน้มมีน้ำหนักเพิ่มขึ้น แถมยังเสี่ยงต่อการเป็นโรคหัวใจอีกด้วย\n
+•	ขโมยของ: พฤติกรรมลักเล็กขโมยน้อยอาจมีสาเหตุมาจากโรคซึมเศร้าได้ เพราะสำหรับผู้ป่วยบางคนที่รู้สึกไร้เรี่ยวแรงในการทำสิ่งต่างๆ และรู้สึกว่าตนเองไร้ค่า การขโมยของเป็นวิธีหนึ่งที่ช่วยให้รู้สึกกระฉับกระเฉงและรู้สึกว่าตนเองสำคัญขึ้นมา ซึ่งสิ่งที่ขโมยมานั้นอาจไม่ได้มีมูลค่าหรือสำคัญเท่ากับความรู้สึกดีที่ได้รับหลังจากขโมยสำเร็จเลย\n
+•	ปวดหลัง: 42% ของผู้คนที่มีอาการปวดหลังเรื้อรังเคยเป็นโรคซึมเศร้ามาแล้วทั้งสิ้น อย่างไรก็ดี หลายคนมักเพิกเฉยต่อการเป็นโรคซึมเศร้า เพราะคิดว่าอาการเจ็บปวดต่างๆ ไม่ได้เกี่ยวข้องกับการเป็นโรคซึมเศร้าแต่อย่างใด\n
+•	พฤติกรรมทางเพศ: ผู้ป่วยบางรายอาจรับมือกับปัญหาโรคซึมเศร้าด้วยการทำพฤติกรรมทางเพศที่ไม่เหมาะสม เช่น เปลี่ยนคู่นอนบ่อย นอกใจ เสพติดการมีเพศสัมพันธ์ และการมีเพศสัมพันธ์แบบไม่ป้องกัน หรือบางรายก็มีอาการหมดความต้องการทางเพศ ทั้งนี้อาการดังกล่าวอาจสัมพันธ์กับการเป็นโรคไบโพลาร์ได้เช่นกัน\n
+•	แสดงอารมณ์อย่างสุดเหวี่ยง: หลายๆ คนที่เป็นโรคซึมเศร้าจะเผลอแสดงอารมณ์มากเกินปกติ บางครั้งก็ขี้โมโหหรือระเบิดอารมณ์ออกมา บางครั้งก็เศร้าเสียใจ หมดหวัง วิตกกังวล และหวาดกลัว ซึ่งความผิดปกตินี้มักสังเกตได้ชัดเจนในผู้ที่เคยนิ่งขรึมและไม่ค่อยพูด\n
+•	เสพติดการพนัน: การพนันอาจทำให้คุณรู้สึกตื่นเต้นและกระชุ่มกระชวย แต่หากคุณเสพติดการเล่นพนันจนเป็นนิสัย คุณอาจต้องทุกข์ทรมานใจภายหลังก็เป็นได้ โดยหลายคนที่เล่นการพนันบอกว่า ตนเองจะรู้สึกวิตกกังวลและซึมเศร้าก่อนเริ่มเล่นการพนัน และเมื่อเจอความผิดหวังก็อาจทำให้ยิ่งรู้สึกแย่ลงไปอีก\n
+•	สูบบุหรี่: การเป็นโรคซึมเศร้าจะยิ่งทำให้คุณต้องการสูบบุหรี่มากขึ้น เรียกได้ว่า ยิ่งซึมเศร้ายิ่งสูบหนัก โดยอาจสูบประมาณ 1 ซองต่อวัน หรือสูบบุหรี่ทุก ๆ 5 นาทีเลยทีเดียว\n
+•	ไม่ใส่ใจตนเอง: การละเลยหรือไม่ใส่ใจตนเอง เป็นสัญญาณของโรคซึมเศร้าและการขาดความมั่นใจในตนเอง พฤติกรรมอาจเริ่มตั้งแต่การไม่แปรงฟัน ไปถึงขั้นโดดสอบ หรือไม่ใส่ใจโรคร้ายต่างๆ ที่ตนเป็น\n
+"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -309,37 +163,12 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="9dp"
             android:layout_marginRight="9dp"
-            android:text="- โกรธ"></TextView>
+            android:text="•	โกรธ\n
+•	ก้าวร้าว\n
+•	เสพยาหรือใช้แอลกอฮอล์\n
+•	พฤติกรรมเสี่ยงต่าง ๆ เช่น ขับรถโดยประมาท มีเพศสัมพันธ์แบบไม่ป้องกัน มีพฤติกรรมสำส่อนทางเพศ เป็นต้น\n
+"></TextView>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- ก้าวร้าว"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- เสพยาหรือใช้แอลกอฮอล์"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="พฤติกรรมเสี่ยงต่าง ๆ เช่น ขับรถโดยประมาท มีเพศสัมพันธ์แบบไม่ป้องกัน มีพฤติกรรมสำส่อนทางเพศ เป็นต้น"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -369,57 +198,16 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:text="- เครียด"></TextView>
+                android:text="•	เครียด\n
+•	แยกตัวสันโดษ\n
+•	หงุดหงิด กระสับกระส่าย\n
+•	ร้องไห้อย่างหนัก\n
+•	มีปัญหาด้านการนอนหลับ\n
+•	หมดความสนใจในเรื่องที่เคยชื่นชอบ\n
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- แยกตัวสันโดษ"></TextView>
+"></TextView>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- หงุดหงิด กระสับกระส่าย"></TextView>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- ร้องไห้อย่างหนัก"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- หมดความสนใจในเรื่องที่เคยชื่นชอบ"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- มีปัญหาด้านการนอนหลับ"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -449,7 +237,28 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:text="- หมกมุ่นเรื่องความตาย เช่น เขียนกลอนหรือภาพวาดที่บ่งบอกถึงความตาย"></TextView>
+                android:text="•	หมกมุ่นเรื่องความตาย เช่น เขียนกลอนหรือภาพวาดที่บ่งบอกถึงความตาย\n
+•	มีพฤติกรรมอาชญากรรม เช่น ขโมยของในร้านขายของ หรือขโมยเครื่องเขียนของเพื่อน\n
+•	แยกตัวออกจากครอบครัวและเพื่อน\n
+•	อ่อนไหวต่อคำวิพากษ์วิจารณ์\n
+•	ผลการเรียนแย่ลงหรือขาดเรียนบ่อยๆ\n
+•	มีพฤติกรรมเสี่ยง เช่น การมีเพศสัมพันธ์ที่ไม่ปลอดภัย และการขับรถโดยประมาท\n
+•	มีพฤติกรรมดื่มแอลกอฮอล์หรือใช้สารเสพติด\n
+•	มีพฤติกรรมที่ไม่สมเหตุสมผลหรือแปลกประหลาดไปจากเดิม\n
+•	นิสัยหรือการแต่งตัวเปลี่ยนไปอย่างสิ้นเชิง\n
+•	ทิ้งข้าวของของตัวเอง\n
+
+"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="#ffcccc"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="อาการจากโรคซึมเศร้า (Depression)"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -459,87 +268,14 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:text="- มีพฤติกรรมอาชญากรรม เช่น ขโมยของในร้านขายของ หรือขโมยเครื่องเขียนของเพื่อน"></TextView>
+                android:text="เมื่อเกิดความเครียดขึ้น ไม่ว่าจะเกิดขึ้นจากสาเหตุใดก็ตาม คุณจะสามารถแก้ปัญหาหรือผ่านพ้นความรู้สึกดังกล่าวไปได้ และไม่นานก็จะกลับมาเป็นปกติ ต่างจากโรคซึมเศร้าที่แม้จะพยายามดึงใจตัวเองกลับมาอย่างไรก็ไม่สามารถทำให้รู้สึกดีขึ้น โดยมีอาการต่อเนื่องตั้งแต่เช้าจนเข้านอน ติดต่อกันมากกว่า 2 สัปดาห์ ซึ่งการปล่อยผ่านและละเลยโดยคิดว่าอาการที่พบเจอเป็นแค่ความเครียดนั้น นอกจากจะไม่ช่วยทำให้อาการดีขึ้นแล้ว ยังมีแต่จะแย่ลงเรื่อยๆ คุณจึงควรหมั่นสังเกตอาการของตัวเองให้ดี หากคาดว่าตนเองมีอาการเข้าข่ายโรคซึมเศร้าควรไปรับการตรวจรักษากับแพทย์ทันที"></TextView>
 
-            <TextView
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- แยกตัวออกจากครอบครัวและเพื่อน"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- อ่อนไหวต่อคำวิพากษ์วิจารณ์"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- ผลการเรียนแย่ลงหรือขาดเรียนบ่อยๆ"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- มีพฤติกรรมเสี่ยง เช่น การมีเพศสัมพันธ์ที่ไม่ปลอดภัย และการขับรถโดยประมาท"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- มีพฤติกรรมดื่มแอลกอฮอล์หรือใช้สารเสพติด"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- มีพฤติกรรมที่ไม่สมเหตุสมผลหรือแปลกประหลาดไปจากเดิม"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- นิสัยหรือการแต่งตัวเปลี่ยนไปอย่างสิ้นเชิง"></TextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:background="#ffcccc"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="9dp"
-                android:text="- ทิ้งข้าวของของตัวเอง"></TextView>
+                android:layout_height="299dp"
+                android:layout_marginBottom="8dp"
+                android:padding="0dp"
+                android:src="@drawable/symptomimg2"></ImageView>
 
             <ImageButton
                 android:layout_width="match_parent"
