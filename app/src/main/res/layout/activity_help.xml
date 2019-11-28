@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    tools:context=".help">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="38dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/scopelogo"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:layout_marginBottom="8dp"
+                android:padding="0dp"
+                android:src="@drawable/helpimg"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:background="#ffcccc"
+                android:text="1. เลือกเมนูที่ต้องการศึกษาเเล้วทำการกดคลิกที่เมนู เช่น เริ่มทำเเบบประเมิน วิธีการรับมือ โรคซึมเศร้าคืออะไร การรักษาโรคซึมเศร้า อาการของโรคซึมเศร้า สถานที่รักษาโรคซึมเศร้า\n
+2. เมื่อผู้ใช้งานเลือกคลิกเมนูทำเเบบประเมินโรคซึมเศร้าให้ผู้ใช้งานเลือกข้อตามความคิดของผู้ใช้งานเเล้วทำการกดส่งเเบบประเมิน เมื่อผู้ใช้งานส่งเเบบประเมินระบบจะทำการเเสดงระดับภาวะโรคซึมเศร้าของผู้ใช้งาน เเละระบบจะมีเมนูวิธีรับมือหรือปุ่มโฮมให้ผู้ใช้งานเลือก\n
+"></TextView>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:id="@+id/home"
+                android:src="@drawable/home"></ImageButton>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

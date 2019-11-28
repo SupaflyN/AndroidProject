@@ -76,6 +76,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageButton imageHelp = (ImageButton) findViewById(R.id.imageHelp);
+        imageHelp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), help.class);
+                startActivity(intent);
+            }
+        });
     }
 }
 
