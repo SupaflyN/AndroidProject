@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/showresult"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"
             ></ImageView>
 
@@ -30,7 +30,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="50dp"
             android:padding="0dp"
             android:src="@drawable/lowrisk"
             android:layout_marginBottom="20dp"
@@ -41,6 +41,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:background="#6666"
             android:textSize="20dp"
             android:layout_marginBottom="20dp"
@@ -51,6 +52,7 @@
             android:id="@+id/home"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:background="@null"
             android:padding="0dp"
             android:src="@drawable/home"></ImageButton>
