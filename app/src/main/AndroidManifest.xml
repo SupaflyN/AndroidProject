@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".help"></activity>
+
+        <activity android:name=".help" ></activity>
         <activity android:name=".symptom" />
         <activity android:name=".place" />
         <activity android:name=".history" />
@@ -22,7 +23,8 @@
         <activity android:name=".ScopeActivity" />
         <activity android:name=".QuestionActivity" />
         <activity android:name=".WhatisActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".spalsh">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
